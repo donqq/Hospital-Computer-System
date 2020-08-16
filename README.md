@@ -1,2 +1,2 @@
-# Hospital-management-system
-Hospital management system written in C++, Win32 in console
+# Hospital Computer System
+Hospital Computer System written in C++, Win32 in console
