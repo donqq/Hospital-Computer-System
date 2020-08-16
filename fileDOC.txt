@@ -1,0 +1,9 @@
+Doctar Name is........................BLD
+Doctar ID is..........................400
+Doctar Specialized field is...........Surgeon
+Doctar Address is.....................180 Boralesgamuwa
+Doctar Telephone number is............0624523423
+Doctar Email is.......................bld@live.com
+Doctar Web is.........................bld.tk
+
+
