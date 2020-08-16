@@ -1,17 +1,15 @@
-/* 
-COPYRIGHT 2010, ALL RIGHT RESERVED 
-AUTHOR BADDE LIYANAGE DON DILANGA. bld@dilanga.com
+//COPYRIGHT 2010, ALL RIGHT RESERVED 
+//AUTHOR BADDE LIYANAGE DON DILANGA. bld@dilanga.com
 
 
-*/
-
-
-#include <iostream.h>//include the iostream header file where all necessary objects included which manipulate IO(input/output) operations
+#include <iostream>//include the iostream header file where all necessary objects included which manipulate IO(input/output) operations
 #include <conio.h> //include conio header file which uses to manipulate screen affairs 
-#include <fstream.h> //fstream standards for file stream and a derived class of iostream class and used to file handling 
+#include <fstream> //fstream standards for file stream and a derived class of iostream class and used to file handling 
 #include <process.h> //process class is for handling processes related to processor.
-#include <iomanip.h>//input /output manipulator which is an extended class where mentions fewer of io handling objects.
-#include <string.h> //string class to manipulate strings and as a replacer for char arrays.
+#include <iomanip>//input /output manipulator which is an extended class where mentions fewer of io handling objects.
+#include <string> //string class to manipulate strings and as a replacer for char arrays.
+
+using namespace std;
 
 //functions and procedures prototypes
 void mainmenu();
@@ -1040,7 +1038,7 @@ void admissionform()
   cout << "Type the Patient ID to print the Admission Form " << endl;
   cin.getline(query,maxValue);
 
-  while(fileRead.read((char*)&patientOne,sizeof patientOne))//read one record and put that into the the struct    ¯¯¯¯¯¯¯¯¯¯
+  while(fileRead.read((char*)&patientOne,sizeof patientOne))//read one record and put that into the the struct    Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯
   {
    if(!strcmp(query,patientOne.pid))
    {
